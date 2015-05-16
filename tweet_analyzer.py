@@ -1,7 +1,7 @@
 # Python code to stream some number of tweets containing some keyword 
 # (set keyword(s) and number of tweets in first block below).
 #
-# Performs a simply sentiment analysis, and prints summary including 
+# Performs a simple sentiment analysis, and prints summary including 
 # tweet location (if user made that info available).
 #
 # User must include their own Twitter tokens/keys below.

@@ -1,7 +1,7 @@
 # Python code to stream some number of tweets containing some keyword 
 # (set keyword(s) and number of tweets in first block below).
 #
-# Performs a simply sentiment analysis, prints summary, and
+# Performs a simple sentiment analysis, prints summary, and
 # plots color-coded positive/negative tweets on a map.
 # [green = positive; yellow = neutral; red = negative].
 #

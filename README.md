@@ -6,7 +6,7 @@ There are two sets of code:
 
 - **tweet_analyzer.py** streams tweets matching your selected keyword, performs a sentiment analysis, and prints the info to the screen. Its pretty fast, assuming your keyword query isn't too obscure.
 
-- **tweet_mapper.py** does the exact same thing, but also plots the tweets, color-coded by sentiment (green = positive) on a map of North America. This code can be slow because not that many twitter users include the needed geographical info.
+- **tweet_mapper.py** does the exact same thing, but also plots the tweets, color-coded by sentiment (green = positive) on a map of North America. This code can be slow because not that many twitter users include the needed geographical info. Saves map as a pdf file.
 
 #### How to use this code
 
