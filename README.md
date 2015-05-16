@@ -1,6 +1,8 @@
 ## Twitter Streaming and Analysis
 
-This is some code I wrote to stream tweets, query for keywords (like cats, or fresh snow, etc), and analyze sentiment. This was a project I worked on for a "Databases and Big Data" small group breakout of the Vancouver, BC Girl-Dev Meetup group. There are two sets of code:
+This is some code I wrote to stream tweets, query for keywords (like cats, or fresh snow, etc), and analyze sentiment. This was a project I worked on for a "Databases and Big Data" small group breakout of the *Girl-Dev* Meetup group in Vancouver, BC, spring 2014. 
+
+There are two sets of code:
 
 - **tweet_analyzer.py** streams tweets matching your selected keyword, performs a sentiment analysis, and prints the info to the screen. Its pretty fast, assuming your keyword query isn't too obscure.
 
