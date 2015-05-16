@@ -5,7 +5,7 @@
 # tweet location (if user made that info available).
 #
 # User must include their own Twitter tokens/keys below.
-#########################
+#==============================================
 # SET THESE VARIABLES:
 
 #KEYWORD(S) TO LOOK FOR?
@@ -22,7 +22,7 @@ consumer_secret = ''
 access_token = ''
 access_secret = ''
 
-#########################
+#==============================================
 
 #from tweepy import Stream
 #from tweepy import OAuthHandler
@@ -45,7 +45,7 @@ auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth)#, secure=True)
 
 
-#-----------
+#==============================================
 
 
 # can use .items or .pages to limit # tweets returned
@@ -101,12 +101,6 @@ print '\n-----------\n'
 
 #it._json is a dict, which in turn contains the dict it._json['user']
 #prints all dict keys: it._json.keys()
-
-
-
-
-
-
 
 ################################################################
 
