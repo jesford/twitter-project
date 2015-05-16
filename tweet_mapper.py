@@ -20,6 +20,9 @@ query = 'cat'
 #Limiting factor is lack of geographical info for the tweets.
 num_tweets = 10
 
+#MAP FILE NAME?
+map_name = 'map.pdf'
+
 #PERSONAL TWITTER APPLICATION TOKENS/KEYS?
 consumer_key = ''
 consumer_secret = ''
@@ -138,3 +141,6 @@ for tw in tweepy.Cursor(api.search, q=query, lang='en', monitor_rate_limit=True,
 
     if count >= num_tweets:
         break
+
+
+plt.savefig(map_name)
